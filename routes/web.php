@@ -108,9 +108,11 @@ Route::middleware(['auth', 'admin'])->group(function () {
     Route::get('/admin/dashboard', [DashboardController::class, 'index'])
         ->name('admin.dashboard');
 
-    Route::resource('admin/categories', CategoryController::class);
+   Route::resource('admin/categories', CategoryController::class)
+    ->names('admin.categories');
 
-    Route::resource('admin/cakes', CakeController::class);
+Route::resource('admin/cakes', CakeController::class)
+    ->names('admin.cakes');
 
     Route::get('/admin/orders', [OrderController::class, 'adminIndex'])
         ->name('admin.orders');
