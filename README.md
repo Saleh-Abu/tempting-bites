@@ -285,6 +285,16 @@ The application is successfully deployed on Railway.
 
 </tr>
 
+<td align="center">
+
+<h3> razorpay payment</h3>
+
+<img src="screenshots/payment.png.png" width="450">
+
+</td>
+
+</tr>
+
 
 
 
