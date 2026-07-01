@@ -55,7 +55,7 @@ class HomeController extends Controller
 
     $categories = \App\Models\Category::all();
 
-    return view('cakes.index', compact('cakes', 'categories'));
+    return view('cakes.index', compact('cakes', 'categories')); // this is used for cake.index page
 }
 public function categories()
 {
