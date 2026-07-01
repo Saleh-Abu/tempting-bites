@@ -1,59 +1,269 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🎂 Tempting Bites
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A modern Full Stack Cake Ordering Web Application built using **Laravel 12**, **MySQL**, **Tailwind CSS**, and **JavaScript**. The platform allows customers to browse cakes, manage their cart and wishlist, place orders, and receive AI-powered cake recommendations.
 
-## About Laravel
+🌐 **Live Demo:** https://tempting-bites-production.up.railway.app
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 📸 Preview
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+> Add screenshots here after uploading them.
 
-## Learning Laravel
+| Home Page | AI Assistant |
+|-----------|--------------|
+| ![Home](screenshots/home.png) | ![AI](screenshots/ai.png) |
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+# ✨ Features
 
-## Laravel Sponsors
+## 👤 User Features
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- User Registration & Login
+- Email Authentication
+- Browse Cakes
+- Browse Categories
+- Search Cakes
+- Filter Cakes
+- Cake Details Page
+- Wishlist
+- Shopping Cart
+- Place Orders
+- Order History
+- Reviews & Ratings
+- Responsive Design
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## 🤖 AI Cake Assistant
 
-## Contributing
+The built-in AI Assistant helps customers by recommending cakes based on:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- Birthday
+- Anniversary
+- Wedding
+- Chocolate Cakes
+- Vanilla Cakes
+- Eggless Cakes
+- Featured Cakes
+- Budget
+- Weight
+- Cheapest Cakes
 
-## Code of Conduct
+Example Questions
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- Suggest a birthday cake
+- Chocolate cake under ₹800
+- Eggless cakes
+- Cake for 20 people
+- Best anniversary cake
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 👨‍💼 Admin Panel
 
-## License
+- Admin Dashboard
+- Manage Categories
+- Manage Cakes
+- Manage Orders
+- Manage Reviews
+- Featured Cakes
+- Stock Management
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+# 🛠 Tech Stack
+
+### Backend
+
+- Laravel 12
+- PHP 8.2
+
+### Frontend
+
+- Blade
+- Tailwind CSS
+- JavaScript
+- Alpine.js
+- Vite
+
+### Database
+
+- MySQL
+
+### Payment
+
+- Razorpay (Integration Ready)
+
+### Deployment
+
+- Railway
+
+### Version Control
+
+- Git
+- GitHub
+
+---
+
+# 📂 Project Structure
+
+```
+app/
+bootstrap/
+config/
+database/
+public/
+resources/
+routes/
+storage/
+```
+
+---
+
+# 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/tempting-bites.git
+```
+
+Go inside the project
+
+```bash
+cd tempting-bites
+```
+
+Install dependencies
+
+```bash
+composer install
+
+npm install
+```
+
+Copy environment
+
+```bash
+cp .env.example .env
+```
+
+Generate application key
+
+```bash
+php artisan key:generate
+```
+
+Configure database in `.env`
+
+Run migrations
+
+```bash
+php artisan migrate
+```
+
+Run seeders
+
+```bash
+php artisan db:seed
+```
+
+Build frontend
+
+```bash
+npm run build
+```
+
+Start server
+
+```bash
+php artisan serve
+```
+
+---
+
+# 🗃 Database
+
+The project uses MySQL.
+
+Main Tables
+
+- Users
+- Categories
+- Cakes
+- Orders
+- Wishlists
+- Reviews
+- Cart
+- Sessions
+
+---
+
+# 🌍 Deployment
+
+Successfully deployed on Railway.
+
+Production includes:
+
+- MySQL Database
+- Environment Variables
+- Vite Asset Compilation
+- HTTPS Configuration
+- Production Build
+
+---
+
+# 📈 Future Improvements
+
+- AI Chatbot using OpenAI API
+- Online Payments
+- Coupon System
+- Delivery Tracking
+- Email Notifications
+- Admin Analytics Dashboard
+- Multi-language Support
+- Dark Mode
+- Product Recommendations
+- Image Upload via Cloud Storage
+
+---
+
+# 📚 What I Learned
+
+While building this project I learned:
+
+- Laravel MVC Architecture
+- Authentication
+- CRUD Operations
+- Eloquent ORM
+- Middleware
+- Routing
+- Blade Components
+- Database Relationships
+- RESTful Controllers
+- Deployment on Railway
+- Git & GitHub
+- Environment Configuration
+- Tailwind CSS
+- Vite
+- Debugging Production Issues
+
+---
+
+# 📧 Contact
+
+**Abu Saleh**
+
+LinkedIn: *(Add your LinkedIn URL)*
+
+GitHub: *(Add your GitHub Profile)*
+
+Email: *(Add your Email)*
+
+---
+
+# ⭐ If you like this project
+
+Please consider giving it a ⭐ on GitHub.
