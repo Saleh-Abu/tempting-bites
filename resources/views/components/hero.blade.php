@@ -53,9 +53,11 @@
                 <div>
 
                     <img
-                        src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=900"
-                        class="rounded-3xl shadow-xl w-full">
-
+    id="heroImage"
+    src="{{ asset('images/hero1.jpg') }}"
+    alt="Tempting Bites Hero"
+    class="rounded-3xl shadow-xl w-full h-[450px] object-cover
+           transition-all duration-700 ease-in-out">
                 </div>
 
             </div>

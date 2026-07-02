@@ -16,7 +16,7 @@ class AIController extends Controller
     public function ask(Request $request)
     {
         $request->validate([
-            'message' => 'required|string'
+            'message' => 'required|string' // validate msg
         ]);
 
         $message = strtolower($request->message);
